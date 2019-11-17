@@ -14,7 +14,7 @@ class Genre
   def self.create(name)
     genre = Genre.new(name)
     genre.save
-    self
+    genre
   end
   
   def self.destroy_all
